@@ -88,7 +88,7 @@ animation: fade-in-from-top 0.5s; /*0.5s is how long you want keyframe to go fro
 }
 
 .dd-toggle {
-  color:rgba(255,255,255, 0.7);
+  color:rgba(255,255,255, 0.7); /*red,green,blue,alpha channel. Opacity set to 0.7 for font color*/
   padding: 0 13px;
   cursor: pointer;
   transition: all 0.4s; /*includes all changes i.e. hovers*/
@@ -97,14 +97,14 @@ animation: fade-in-from-top 0.5s; /*0.5s is how long you want keyframe to go fro
 
 .dd-toggle:hover {
   color: #fff;
-  background-color: (255,255,255, 0.07);
+  background-color: (255,255,255, 0.07); /*opacity increased to 0.07 on hover*/
 }
 .dd-toggle:focus{ /*focus property targets display of tabbing over btns*/
   color: #fff;
   background-color: (255,255,255, 0.07);  
 }
 
-.dd-toggle:nth-of-type(4) { /*This moves last 3 buttons to far right*/
+.dd-toggle:nth-of-type(4) { /*This moves last 4 icon/img/text elements flush right*/
   margin-left: auto;
 }
 
